@@ -1,0 +1,54 @@
+body {
+    margin: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 0px auto 0px auto;
+    color: ivory;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.7rem;
+    border-style: none;
+    background-size: 50%;
+    background-color: green;
+    
+    
+}
+ .main-page { width: 60%;
+    text-align: center;
+    margin: 60px auto 20px auto;
+
+}
+.sub-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    line-height: 0px;
+}
+p {
+    line-height: 2;
+}
+
+img {
+    width: 30%;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: green;
+    border-width: 20px;
+    width: 30%;
+}
+
+.ladies-png {
+    width: 50%;
+}
+.logo-png {
+    width: 10%;
+    position: absolute;
+    left: 20px;
+}
+.middle-segment {
+    margin: 20px 20px;
+}

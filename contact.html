@@ -3,13 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
-    <link rel="stylesheet" href="CSS/styles.css">
-</head>
-<body>
-    <div class="top-segment">
-        <img class="logo-png" src="Images/Aviatrix.png" width="200px" alt="logo of naija aviatrix">
-        <h1>Naija Aviatrix</h1>
+    <title> 🛫 Naija Aviatrix Personal Site🛬 </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Merriweather:wght@400;700;900&family=Pacifico&family=Sacramento&family=Sofia&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<script src="https://kit.fontawesome.com/d3071ee7f1.js" crossorigin="anonymous"></script>
+
+
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+  <section class="container-fluid">
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="Images/Aviatrix.png" alt="Logo"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="meet-the-ladies.html">MEET THE LADIES</a></li>
+            <li><a href="our-missions.html">OUR MISSIONS</a></li>
+            <li><a href="spotlight.html">OUR MISSION</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">JOIN US
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="sponsor-a-mission.html">SPONSOR A MISSION</a></li>
+                <li><a href="volunteer.html">BE A VOLUNTEER</a></li>
+              </ul>
+            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+</section>
+    
+<div class="container-fluid">
+<h1> NAIJA AVIATRIX</h1>
         <h2 class=" sub-heading">Contact Us</h2>
         </div>
     
@@ -19,18 +61,21 @@
     <p>Email: info@naijaaviatrix.com</p>
 </div>
 <hr>
-    <form action="mailto:naijaaviatrix@gmail.com" method="POST" enctype="text/plain">
-    <label for="">Your name</label>
-        <input type="text" name="yourName"> <br>
-        <label> Your Email</label>
-        <input type="email" name="yourEmail"> <br>
-        <label> Phone number</label>
-        <input type="tel" name="phoneNumber" id="">
-        <label for="">Your message</label>
-       <textarea name="yourMessage" id="" cols="40" rows="10"></textarea>
-       <input type="submit" value="">
-    
-    </form>
+<div class="col-md-8">
+    <div class="row">
+      <div class="col-sm-6 form-group">
+        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+      </div>
+      <div class="col-sm-6 form-group">
+        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+      </div>
+    </div>
+    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+    <br>
+    <div class="row">
+      <div class="col-md-12 form-group">
+        <button class="btn pull-right" type="submit">Send</button>
+      </div>
 
     <div class="bottom-container">
         <a class="footer-link" href="hhttps://www.linkedin.com">LinkedIn</a>

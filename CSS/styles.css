@@ -1,17 +1,24 @@
+/*font-family: 'East Sea Dokdo', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Sofia', cursive; */
+
 body {
-    margin: 20px;
+    margin: 5px;
     background-color: aliceblue;
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Merriweather', serif;
+    font-weight: 700;
     line-height: 1.5;
 }
 
 h1 {
-    margin: 10px auto 10px auto;
+    margin: 95px 0px 10px 0px;
     padding: 20px;
     color: green;
-    font-family: 'Sacramento', cursive;
+    font-family: 'East Sea Dokdo', cursive;
     font-size: 5.7rem;
     border-style: none;
     background-size: 100%;
@@ -19,20 +26,18 @@ h1 {
 }
 
 p {
-        margin: 50px 50px;
-    }
-    
-    
-    
+        margin: 30px 30px;
+    } 
 
  .main-page { 
     text-align: center;
-    margin: 60px auto 20px auto;
+    margin: 50px auto 20px auto;
 
 }
 .sub-heading {
+    margin: 50px auto 20px auto;
     font-family: 'Merriweather', serif;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 2;
     padding: 10px;
 
@@ -40,7 +45,8 @@ p {
 
 
 img {
-    width: 30%;
+    width: 25%;
+   
 }
 
 hr {
@@ -49,6 +55,9 @@ hr {
     border-width: 20px;
     width: 30%;
 }
+.container-fluid {
+    margin: 0;
+}
 a { 
     color:green ;
 }
@@ -56,51 +65,41 @@ a:hover {
     color:rgb(160, 233, 160) ;
 }
 
-.ladies-png {
-    width: 50%;
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #044f1c;
+  border: 0;
+  font-size: 15px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
 }
-.logo-png {
-    width: 20%;
-    position: absolute;
-    left: 20px;
+.navbar li a, .navbar .navbar-brand { 
+  color: #d5d5d5 !important;
 }
-.middle-segment {
-    margin: 20px 20px;
+.navbar-nav li a:hover {
+  color: #fff !important;
 }
-.contact-us {
-    margin: 40px auto;
-    padding-bottom: 20px;
-    width: 80%;
-    line-height: 1.5;
-    }
-      .btn {
-          margin: 25px 25px;
-            border-radius: 20px;
-            height: 20px;
-            line-height: 20px;
-            color: #FFFFFF;
-            font-family: 'Montserrat', sans-serif;
-            width: 150px;
-            font-size: 20px;
-            font-weight: 300;
-            padding: 15px 15px;
-            background-color: green;
-            box-shadow: 1px 1px 20px 0 #000000;
-            text-shadow: 1px 1px 20px #000000;
-            border: solid #11999E 1px;
-            text-decoration: none;
-            display: inline-block;
-            cursor: pointer;
-            text-align: center;
-         }
-         
-         .btn:hover {
-            background: rgb(160, 233, 160);
-            border: solid #0f959a 2px;
-            border-radius: 20px;
-            color: green;
-            text-decoration: none;
-         }  
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-brand>.brand-img {
+  display: inline-block !important;
+}
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: #555 !important;
+}
+.dropdown-menu li a {
+  color: #000 !important;
+}
+.dropdown-menu li a:hover {
+  background-color: red !important;
+}
     .footer-link {
         margin: 150px 50px;
         font-size: 1.2rem;
